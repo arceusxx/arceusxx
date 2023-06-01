@@ -1,16 +1,35 @@
-### Hi there 👋
+<?php
 
-<!--
-**arceusxx/arceusxx** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+namespace arceus;
 
-Here are some ideas to get you started:
+class About extends Me
+{
+    public function getCurrentWorkplace()
+    {
+        return [
+            'workplace' => [
+                'company' => 'Phishield',
+                'position' => 'Owner'         
+            ]
+        ];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function getDailyKnowledge()
+    {
+        return [
+            Python::class,
+            Javascript::class,
+            HTML::class,
+            CSS::class,
+            Vite::class,
+            React::class,
+            Flask::class,
+            Go::class,
+        ];
+    }
+
+    public function getFutureGoal()
+    {
+        return 'idk.';
+    }
+}

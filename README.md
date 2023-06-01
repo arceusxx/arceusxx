@@ -1,4 +1,5 @@
-```<?php
+```php
+<?php
 
 namespace arceus;
 
@@ -32,4 +33,5 @@ class About extends Me
     {
         return 'idk.';
     }
-}```
+}
+```

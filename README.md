@@ -10,7 +10,7 @@ class About extends Me
         return [
             'workplace' => [
                 'company' => 'Phishield',
-                'position' => 'Owner'         
+                'position' => 'Owner'
             ]
         ];
     }
